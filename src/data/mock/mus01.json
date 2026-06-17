@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "table": "MUS01",
+    "title": "Besøg på museer efter område",
+    "unit": "Antal besøg",
+    "source": "Danmarks Statistik — mock/cached",
+    "updated": "2024-03-15"
+  },
+  "rows": [
+    { "KOM": "101", "KOMTitel": "København", "Tid": "2023", "value": 3245680 },
+    { "KOM": "751", "KOMTitel": "Aarhus", "Tid": "2023", "value": 1876540 },
+    { "KOM": "461", "KOMTitel": "Odense", "Tid": "2023", "value": 892340 },
+    { "KOM": "851", "KOMTitel": "Aalborg", "Tid": "2023", "value": 654210 },
+    { "KOM": "561", "KOMTitel": "Esbjerg", "Tid": "2023", "value": 312450 },
+    { "KOM": "265", "KOMTitel": "Roskilde", "Tid": "2023", "value": 456780 },
+    { "KOM": "630", "KOMTitel": "Vejle", "Tid": "2023", "value": 234560 },
+    { "KOM": "820", "KOMTitel": "Randers", "Tid": "2023", "value": 198340 },
+    { "KOM": "740", "KOMTitel": "Horsens", "Tid": "2023", "value": 167890 },
+    { "KOM": "151", "KOMTitel": "Frederiksberg", "Tid": "2023", "value": 523410 },
+    { "KOM": "101", "KOMTitel": "København", "Tid": "2022", "value": 2987650 },
+    { "KOM": "751", "KOMTitel": "Aarhus", "Tid": "2022", "value": 1723450 },
+    { "KOM": "461", "KOMTitel": "Odense", "Tid": "2022", "value": 856120 },
+    { "KOM": "851", "KOMTitel": "Aalborg", "Tid": "2022", "value": 612340 },
+    { "KOM": "561", "KOMTitel": "Esbjerg", "Tid": "2022", "value": 298760 }
+  ]
+}

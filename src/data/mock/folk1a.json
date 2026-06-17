@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "table": "FOLK1A",
+    "title": "Befolkningstal den 1. i kvartalet efter område",
+    "unit": "Personer",
+    "source": "Danmarks Statistik — mock/cached",
+    "updated": "2024-03-15"
+  },
+  "rows": [
+    { "KOM": "101", "KOMTitel": "København", "Tid": "2023", "value": 644431 },
+    { "KOM": "751", "KOMTitel": "Aarhus", "Tid": "2023", "value": 285273 },
+    { "KOM": "461", "KOMTitel": "Odense", "Tid": "2023", "value": 182387 },
+    { "KOM": "851", "KOMTitel": "Aalborg", "Tid": "2023", "value": 221082 },
+    { "KOM": "561", "KOMTitel": "Esbjerg", "Tid": "2023", "value": 115748 },
+    { "KOM": "265", "KOMTitel": "Roskilde", "Tid": "2023", "value": 87916 },
+    { "KOM": "630", "KOMTitel": "Vejle", "Tid": "2023", "value": 119922 },
+    { "KOM": "820", "KOMTitel": "Randers", "Tid": "2023", "value": 98586 },
+    { "KOM": "740", "KOMTitel": "Horsens", "Tid": "2023", "value": 97864 },
+    { "KOM": "151", "KOMTitel": "Frederiksberg", "Tid": "2023", "value": 104542 },
+    { "KOM": "101", "KOMTitel": "København", "Tid": "2022", "value": 638117 },
+    { "KOM": "751", "KOMTitel": "Aarhus", "Tid": "2022", "value": 280963 },
+    { "KOM": "461", "KOMTitel": "Odense", "Tid": "2022", "value": 180863 },
+    { "KOM": "851", "KOMTitel": "Aalborg", "Tid": "2022", "value": 219786 },
+    { "KOM": "561", "KOMTitel": "Esbjerg", "Tid": "2022", "value": 115524 }
+  ]
+}

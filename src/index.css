@@ -1,0 +1,98 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Source Sans 3', system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+
+  --color-kultur-canvas: #0f0e11;
+  --color-kultur-surface: #1a181f;
+  --color-kultur-raised: #242128;
+  --color-kultur-border: #3a3540;
+  --color-kultur-muted: #9a939e;
+  --color-kultur-subtle: #b8b0bb;
+  --color-kultur-text: #f4efe8;
+
+  --color-kultur-clay: #c4785a;
+  --color-kultur-sage: #6fa393;
+  --color-kultur-gold: #c9a55c;
+  --color-kultur-ink: #7a9bb8;
+  --color-kultur-plum: #9b7aab;
+
+  /* Legacy chart tokens — mapped to cultural palette */
+  --color-nord-bg: #0f0e11;
+  --color-nord-surface: #1a181f;
+  --color-nord-elevated: #242128;
+  --color-nord-border: #3a3540;
+  --color-nord-muted: #9a939e;
+  --color-nord-text: #f4efe8;
+  --color-nord-frost: #c4785a;
+  --color-nord-teal: #6fa393;
+  --color-nord-amber: #c9a55c;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  @apply m-0 h-screen overflow-hidden bg-kultur-canvas font-sans text-kultur-text antialiased;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgb(196 120 90 / 0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgb(111 163 147 / 0.05), transparent);
+}
+
+#root {
+  @apply h-screen overflow-hidden;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+@keyframes chart-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-chart-fade-in {
+  animation: chart-fade-in 0.45s ease-out both;
+}
+
+@keyframes seasonal-insight-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-seasonal-insight {
+  animation: seasonal-insight-in 0.4s ease-out both;
+}
+
+.chart-view-transition {
+  transition: opacity 0.25s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-chart-fade-in {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .animate-seasonal-insight {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
