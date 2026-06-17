@@ -3,6 +3,7 @@ import { CulturalDataProvider } from './context/CulturalDataContext'
 import { ViewModeProvider } from './context/ViewModeContext'
 import { LanguageProvider } from './i18n/LanguageContext'
 import { Dashboard } from './components/dashboard/Dashboard'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <CulturalDataProvider>
           <ViewModeProvider>
             <Dashboard />
+            <Analytics />
           </ViewModeProvider>
         </CulturalDataProvider>
       </MunicipalityProvider>
