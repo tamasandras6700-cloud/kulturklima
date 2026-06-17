@@ -4,6 +4,7 @@ import { ViewModeProvider } from './context/ViewModeContext'
 import { LanguageProvider } from './i18n/LanguageContext'
 import { Dashboard } from './components/dashboard/Dashboard'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <ViewModeProvider>
             <Dashboard />
             <Analytics />
+            <SpeedInsights />
           </ViewModeProvider>
         </CulturalDataProvider>
       </MunicipalityProvider>
