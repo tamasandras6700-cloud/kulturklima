@@ -17,6 +17,10 @@ dist-ssr
 .env.*
 !.env.example
 
+# Generated at build time (scripts/generate-seo-files.mjs)
+public/sitemap.xml
+public/robots.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

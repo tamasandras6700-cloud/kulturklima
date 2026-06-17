@@ -88,6 +88,10 @@ Runs ESLint, TypeScript build, and a production dependency audit.
 4. Output directory: `dist`
 5. `vercel.json` is included — it configures the Statbank proxy and security headers (HSTS, CSP, frame options).
 
+### SEO
+
+Set `VITE_SITE_URL` in Vercel to your production domain so builds generate correct canonical URLs, `robots.txt`, and `sitemap.xml`. The app updates Open Graph tags and JSON-LD when switching between Danish and English.
+
 ## Project structure
 
 ```

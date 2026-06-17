@@ -18,6 +18,7 @@ import {
   formatQuarterLabel,
   formatSeasonName,
 } from '../utils/seasonalInsights'
+import { applyPageSeo } from '../utils/seo'
 
 export { getNumberLocale, createNumberFormatters } from './numberFormat'
 
@@ -90,9 +91,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     document.documentElement.lang = locale
-    document.title = t('meta.title')
-    const meta = document.querySelector('meta[name="description"]')
-    if (meta) meta.setAttribute('content', t('meta.description'))
+    applyPageSeo(locale, t)
   }, [locale, t])
 
   const value = useMemo(

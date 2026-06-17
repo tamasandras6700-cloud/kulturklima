@@ -6,7 +6,7 @@ const da = {
   meta: {
     title: 'KulturKlima — Danmarks kulturelle puls',
     description:
-      'KulturKlima — Danmarks kulturelle puls. Kulturelt forbrug på tværs af danske kommuner.',
+      'Udforsk biblioteksudlån, museumsbesøg og kulturindeks for alle 98 danske kommuner. Live data fra Danmarks Statistik (BIB1, MUS3, FOLK1A).',
   },
   header: {
     subtitle: 'Kulturdata og kommunal indsigt på tværs af Danmark.',
@@ -178,7 +178,7 @@ const en: TranslationTree = {
   meta: {
     title: 'KulturKlima — The Cultural Pulse of Denmark',
     description:
-      'KulturKlima — The Cultural Pulse of Denmark. Cultural consumption across Danish municipalities.',
+      'Explore library loans, museum visits, and culture metrics for all 98 Danish municipalities. Live data from Statistics Denmark (BIB1, MUS3, FOLK1A).',
   },
   header: {
     subtitle: 'Cultural data and municipal insight across Denmark.',
